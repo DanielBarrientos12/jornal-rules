@@ -1,0 +1,10 @@
+name: netto_rules
+description: Reglas de cálculo de Netto y su validador.
+publish_to: 'none'
+version: 1.0.0
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  crypto: ^3.0.6

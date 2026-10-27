@@ -1,0 +1,2 @@
+# Los JSON se publican byte a byte: el sha256 del manifest depende de ello.
+*.json text eol=lf

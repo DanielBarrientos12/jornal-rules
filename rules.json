@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "version": 2,
+  "cobertura_desde": "2026-01-01",
+  "reglas": {
+    "recargo_nocturno_pct": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": null, "valor": 35, "fuente": "CST art. 168 num. 1" }
+    ],
+    "extra_diurna_pct": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": null, "valor": 25, "fuente": "CST art. 168 num. 2" }
+    ],
+    "extra_nocturna_pct": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": null, "valor": 75, "fuente": "CST art. 168 num. 3" }
+    ],
+    "recargo_dominical_festivo_pct": [
+      { "vigente_desde": "2025-07-01", "vigente_hasta": "2026-06-30", "valor": 80, "fuente": "Ley 2466 de 2025 (CST art. 179)" },
+      { "vigente_desde": "2026-07-01", "vigente_hasta": "2027-06-30", "valor": 90, "fuente": "Ley 2466 de 2025 (CST art. 179)" },
+      { "vigente_desde": "2027-07-01", "vigente_hasta": null, "valor": 100, "fuente": "Ley 2466 de 2025 (CST art. 179)" }
+    ],
+    "divisor_hora_ordinaria": [
+      { "vigente_desde": "2025-07-15", "vigente_hasta": "2026-07-14", "valor": 220, "fuente": "Ley 2101 de 2021 (jornada 44 h)" },
+      { "vigente_desde": "2026-07-15", "vigente_hasta": null, "valor": 210, "fuente": "Ley 2101 de 2021 (jornada 42 h)" }
+    ],
+    "jornada_maxima_semanal_min": [
+      { "vigente_desde": "2025-07-15", "vigente_hasta": "2026-07-14", "valor": 2640, "fuente": "Ley 2101 de 2021 (44 h)" },
+      { "vigente_desde": "2026-07-15", "vigente_hasta": null, "valor": 2520, "fuente": "Ley 2101 de 2021 (42 h)" }
+    ],
+    "inicio_nocturno_min": [
+      { "vigente_desde": "2017-07-18", "vigente_hasta": "2025-12-24", "valor": 1260, "fuente": "Ley 1846 de 2017 art. 1 (9:00 p. m.)" },
+      { "vigente_desde": "2025-12-25", "vigente_hasta": null, "valor": 1140, "fuente": "Ley 2466 de 2025 art. 10 y par. 2 (7:00 p. m., 6 meses tras la sanción del 25-jun-2025)" }
+    ],
+    "fin_nocturno_min": [
+      { "vigente_desde": "2017-07-18", "vigente_hasta": null, "valor": 360, "fuente": "CST art. 160 (6:00 a. m.)" }
+    ],
+    "smmlv": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": "2026-12-31", "valor": 1750905, "fuente": "Decreto de salario mínimo 2026" },
+      { "vigente_desde": "2027-01-01", "vigente_hasta": "2027-03-31", "valor": 1750905, "provisional": true, "fuente": "Provisional: repite 2026 mientras sale el decreto de 2027" }
+    ],
+    "auxilio_transporte": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": "2026-12-31", "valor": 249095, "fuente": "Decreto de auxilio de transporte 2026" },
+      { "vigente_desde": "2027-01-01", "vigente_hasta": "2027-03-31", "valor": 249095, "provisional": true, "fuente": "Provisional: repite 2026 mientras sale el decreto de 2027" }
+    ],
+    "auxilio_transporte_tope_smmlv": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": null, "valor": 2, "fuente": "Ley 15 de 1959" }
+    ],
+    "salud_empleado_pct": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": null, "valor": 4, "fuente": "Ley 1122 de 2007 art. 10" }
+    ],
+    "pension_empleado_pct": [
+      { "vigente_desde": "2026-01-01", "vigente_hasta": null, "valor": 4, "fuente": "Ley 797 de 2003 art. 7" }
+    ]
+  }
+}
