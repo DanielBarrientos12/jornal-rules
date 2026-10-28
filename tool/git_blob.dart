@@ -2,7 +2,7 @@ import 'dart:io';
 
 /// Repositorio donde se publican las reglas. El manifest solo puede apuntar
 /// aquí.
-const publishedRepo = 'DanielBarrientos12/netto-rules';
+const publishedRepo = 'DanielBarrientos12/jornal-rules';
 
 /// URL de `rules.json` en un commit fijo.
 Uri rulesUrlFor(String commit) => Uri.parse(

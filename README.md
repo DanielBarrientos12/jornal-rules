@@ -1,6 +1,6 @@
-# netto-rules
+# jornal-rules
 
-Reglas de cálculo de **Netto** (recargos, horas extra, salario mínimo, auxilio de transporte, salud y pensión en Colombia), con su vigencia. La app las descarga para no depender de una actualización en la tienda cada vez que cambia un valor.
+Reglas de cálculo de **Jornal** (recargos, horas extra, salario mínimo, auxilio de transporte, salud y pensión en Colombia), con su vigencia. La app las descarga para no depender de una actualización en la tienda cada vez que cambia un valor.
 
 La app no envía nada a este repositorio: solo lee dos archivos públicos.
 

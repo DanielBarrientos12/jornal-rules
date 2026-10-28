@@ -5,7 +5,7 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:crypto/crypto.dart';
-import 'package:netto_rules/netto_rules.dart';
+import 'package:jornal_rules/jornal_rules.dart';
 
 import 'git_blob.dart';
 

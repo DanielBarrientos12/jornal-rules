@@ -1,5 +1,5 @@
-name: netto_rules
-description: Reglas de cálculo de Netto y su validador.
+name: jornal_rules
+description: Reglas de cálculo de Jornal y su validador.
 publish_to: 'none'
 version: 1.0.0
 
